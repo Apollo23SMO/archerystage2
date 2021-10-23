@@ -48,6 +48,8 @@ function draw() {
   image(baseimage,playerBase.position.x,playerBase.position.y,180,150)
   image(playerimage,player.position.x,player.position.y,50,180)
 
+  playerArcher.display();
+
   // Title
   fill("#FFFF");
   textAlign("center");
